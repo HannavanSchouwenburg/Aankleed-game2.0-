@@ -1,0 +1,58 @@
+#trui
+{
+   width:9%; 
+}
+/* Position relative neemt 'normale positie en die behoudt de image, zodat hij niet verplaatst bij overlapping, 
+heeft wel een border maar position absolute kan daar nog wel overheen*/
+
+#vrouw
+{
+    Width: 33%;
+    position:relative;
+}
+
+#Jurkje
+
+{
+    height:35%;
+    Width:12%;
+}
+
+#jeans
+
+{
+    height:23%;
+    width:6%;
+}
+
+#gestreeptshirt
+
+{
+    width: 9%;
+}
+
+.positietorso
+
+/* Position ablosute zodat images kunnen overlappen, alleen niet goed te gebruiken voor flexibiliteit op scherm */
+
+{
+    position: absolute; 
+    top: 21%;
+    left:12.5%;
+}
+
+.positiebenen
+
+{
+    Position: absolute; 
+    top: 35.5%;
+    left:14%; 
+}
+
+.positiejurkje
+
+{
+    Position: absolute;
+    top: 20.5%;
+    left:11%;
+}
